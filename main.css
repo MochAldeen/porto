@@ -536,7 +536,7 @@ a .fa-linkedin-in {
 .about__text-title {
   margin-top:3vh;
   font-family: SF Pro Display;
-  font-style: oblique 40deg;
+  font-style: oblique;
   font-size: 70px;
   line-height: 110%;
   color: #F3F3F3;
