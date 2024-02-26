@@ -1191,6 +1191,10 @@ a .fa-linkedin-in {
   width: 100%;
 }
 
+.header__left-inner li {
+  list-style-type: none
+}
+
 @media (max-width: 992px) {
   .header__left-inner {
     width: 100%;
@@ -1211,47 +1215,6 @@ a .fa-linkedin-in {
 
 .header__logo i span {
   color: blue;
-}
-
-.header__author-mail {
-  position: relative;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: auto;
-}
-
-@media (max-width: 1200px) {
-  .header__author-mail {
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 450px) {
-  .header__author-mail {
-    display: none;
-  }
-}
-
-.header__author-mail::after {
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: '';
-  height: 1px;
-  background-color: transparent;
-}
-
-.header__author-mail:hover::after {
-  right: 0;
-  background-color: #F3F3F3;
 }
 
 .header__right-inner {
