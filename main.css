@@ -1737,6 +1737,10 @@ hr {
   border-bottom: 2px;
 }
 
+.coding-languages ul li img {
+width: 70px;
+}
+
 .coding-languages ul li img:hover + span {
   visibility: visible;
   opacity: 1;
