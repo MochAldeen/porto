@@ -1,30 +1,8 @@
-/* ------------------------------------------------------------------------------
-
-  1. Global
-    1.1 General
-    1.2 Typography
-  2. Blocks
-    2.11 Section
-    2.12 Home
-    2.13 About
-    2.14 About video
-    2.15 Main bloks
-    2.16 Partners
-    2.17 Awards
-    2.18 Testimonials
-    2.19 Contacts
-    2.2 Blog
-    2.21 Cases
-    2.22 Preloader
-  3. Header
-  4. Nav widget
-
----------------------------------------------------------------------------------*/
-@import url("reset.css");
-@import url("jquery.pagepiling.min.css");
-@import url("swiper.min.css");
-@import url("jquery.fancybox.min.css");
-@import url("just-validate.min.css");
+@import url("css/reset.css");
+@import url("css/jquery.pagepiling.min.css");
+@import url("css/swiper.min.css");
+@import url("css/jquery.fancybox.min.css");
+@import url("css/just-validate.min.css");
 /*-------------------------------------------------------------------------------
   1. Global
 -------------------------------------------------------------------------------*/
@@ -209,37 +187,30 @@ body {
 -------------------------------------------------------------------------------*/
 /* 2.11 Section */
 .section-home {
-  background-image: url("../img/bg/menu.jpg");
+  background-image: url("img/bg/menu.jpg");
   background-size: cover;
   background-position: 100% 22%;
   background-repeat: no-repeat;
 }
 
 .section-about {
-  background-image: url("../img/bg/about.jpg");
+  background-image: url("img/bg/about.jpg");
   background-size: cover;
   background-position: 100% 22%;
   background-repeat: no-repeat;
 }
 
 .section-cases {
-  background-image: url("../img/bg/partners.jpg");
+  background-image: url("img/bg/partners.jpg");
   background-size: cover;
   background-position: 100% 22%;
   background-repeat: no-repeat;
 }
 
 .section-awards {
-  background-image: url("../img/bg/awards.jpg");
+  background-image: url("img/bg/awards.jpg");
   background-size: cover;
   background-position: 100% 22%;
-  background-repeat: no-repeat;
-}
-
-.section-blog {
-  background-image: url("../img/bg/blog.jpg");
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
